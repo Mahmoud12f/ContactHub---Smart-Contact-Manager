@@ -1,0 +1,208 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  box-sizing: border-box !important;
+}
+.p-0px{
+  padding: 0px !important;
+}
+.m-0px{
+  margin: 0px !important;
+}
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenar-4{
+  padding-inline:  4% !important;
+}
+
+ .line{
+  width: 100%;
+  height: 1px;
+  background-color: #dadee2;
+ }
+/* ======================== width =============/*/
+.w-50px{
+  width: 50px;
+}
+.w-40px{
+  width: 40px;
+}
+.w-70px{
+  width: 70px;
+}
+.w-100px{
+  width: 100px;
+}
+.w-40{
+  width: 40%;
+}
+.w-30px{
+  width: 30px;
+}
+.w-60px{
+  width: 60px;
+}
+/* =======================  height =================== */
+.h-50px{
+  height: 50px;
+}
+.h-60px{
+  height: 60px;
+}
+.h-30px{
+  height: 30px;
+}
+.h-40px{
+  height: 40px;
+}
+.h-70px{
+  height: 70px;
+}
+.h-100px{
+  height: 100px;
+}
+.h-100{
+  height: 95% !important;
+  overflow: auto;
+}
+/* ====================== background-color ===================== */
+.bg-1{
+  background-color: rgb(94, 52, 248);
+}
+.bg-2{
+  background-color: #F5F9FC;
+}
+.bg-3{
+  background-color: #1A66FE;
+}
+.bg-4{
+  background-color: #FF7F00;
+}
+.bg-5{
+  background-color: rgb(237, 0, 38);
+}
+.bg-6{
+  background-color: #F3F4F6;
+}
+.bg-7{
+  background-color: #FFFBEB;
+}
+.bg-8{
+  background-color: #DBEAFE;
+}
+.bg-9{
+  background-color: #EDE9FE;
+}
+.bg-10{
+  background-color: #D0FAE5;
+}
+.bg-11{
+  background-color: #FAFBFC;
+}
+.bg-12{
+  background-color: #FFF2F2;
+}
+.bg-13{
+  background-color:#ECFDF5 ;
+}
+.bg-14{
+  background-color:#F5F3FF ;
+}
+.bg-15{
+  background-color: #F9FAFB;
+}
+.bg-16{
+  background-color: #D0FAE5;
+}
+.bg-17{
+  background-color: #FFE4E6;
+}
+/* ==================== color ==================== */
+.color-1{
+  color: #7F22FE;
+}
+.color-2{
+  color: #155DFC;
+}
+.color-3{
+  color: #069B69;
+}
+.color-4{
+  color: #FF2056;
+}
+/* ======================== font size ====================== */
+.fs-12px{
+  font-size: 12px;
+}
+
+/* ===================== hover ================= */
+.hover-1:hover{
+  transform:translatey(-5px);
+ box-shadow: 0 3px 15px rgba(94, 52, 248,0.8);
+}
+.hover-2:hover{
+  background-color: #F3F4F6;
+}
+.hover-4:hover{
+background-color: #D0FAE5 !important;
+}
+.hover-5:hover{
+background-color: #EDE9FE !important;
+}
+.hover-6:hover{
+background-color: #FEF3C6 !important;
+}
+.hover-7:hover{
+background-color: #FFE4E6 !important;
+}
+.hover-8:hover{
+background-color: #EEF2FF !important;
+color: #155DFC !important;
+}
+.hover-9:hover{
+background-color: #FFF1F2 !important;
+color: #EC003F !important;
+}
+.hover-10:hover .icon{
+  background-color: #00BC7D !important;
+  color: white;
+}
+.hover-11:hover{
+ background-color:#FFFBEB !important;
+}
+.hover-12:hover .icon{
+  background-color: #FF2056 !important;
+  color: white !important;
+}
+/* ========================box shadow =========== */
+.box-sh-1{
+ box-shadow: 0px 5px 15px rgba(94, 52, 248,0.5);
+}
+.box-sh-2{
+ box-shadow: 0px 5px 15px rgba(255, 127, 0,0.5);
+}
+.box-sh-3{
+ box-shadow: 0px 5px 15px rgba(237, 0, 38,0.5);
+}
+
+#form{
+  position: absolute !important;
+  position: fixed !important;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+
+  background-color: rgba(0, 0, 0, 0.2); 
+  backdrop-filter: blur(4px);/* خلفية بيضاء شفافة بنسبة 20% */
+
+}
+.cursor-pointer{
+  cursor: pointer;
+}
